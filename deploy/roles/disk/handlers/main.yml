@@ -1,0 +1,6 @@
+---
+
+- name: restart disk
+  service:
+      name: docker-compose@disk
+      state: restarted
